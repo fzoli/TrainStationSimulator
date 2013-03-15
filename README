@@ -1,0 +1,20 @@
+Vonatállomás-szimulátor.
+Java nyelven írt, magyar nyelvű alkalmazás.
+
+Alap vezérlés:
+Balra/Jobbra nyíl: a nyílnak megfelelő irányba hoz létre egy vonatot
+Ctrl + Balra/Jobbra nyíl: a nyílnak megfelelő irányba hoz létre egy gyorsvonatot
+
+Vonat csak akkor hozható létre, ha ezzel a forgalom továbbhaladása biztosított.
+A személyvonatok rövid időre mindenképpen megállnak az állomáson,
+a gyorsvonatok csak akkor állnak meg, ha továbbhaladva ütközés történne.
+A gyorsvonatoknak elsőbbségi priorításuk van a személyvonatokkal szemben.
+
+Játék mód kiegészítő vezérlés:
+Fel/Le nyíl: a bal oldali váltókat kapcsolja át egyenesből eltérítésre, ill. fordítva
+Ctrl + Fel/Le nyíl: a jobb oldali váltókat kapcsolja át...
+
+A váltókat a program alapértelmezésben automatikusan kezeli, nem állíthatóak át.
+Játék módban a program nem állítja meg a vonatokat és a váltókat sem kezeli,
+így bármikor ütköztethetőek a vonatok, valamint kisiklanak, ha a játékos alájuk vált.
+(az első kerék áthaladt a váltón, de a hátsó még nem, és ekkor a váltót átállítják)
