@@ -152,6 +152,7 @@ public class Foablak extends JFrame {
         if (rajzterulet != null)
             rajzterulet.setBounds(0, 0, 0, 0);
         rajzterulet = new JDesktopPane();
+        rajzterulet.removeAll();
         getContentPane().setBackground(Color.WHITE);
         rajzterulet.setOpaque(false);
         getContentPane().add(rajzterulet);
